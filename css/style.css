@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    
+}
+
+.first{
+    width: 33.33%;
+    height:100%;
+    position: absolute;
+    background-color:  hsl(31, 77%, 52%);
+    border-radius:  5%  0 0 5%;
+    text-align:none;
+
+  
+}
+.second{
+    width: 33.33%;
+    height: 100%;
+    right: 333px;
+    position: absolute;
+    background-color: hsl(184, 100%, 22%);
+}
+.third{
+    width: 33.33%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0  5% 5% 0;
+}
+.full{
+    margin: auto auto auto auto;
+    position: relative;
+   
+    height: 500px;
+    width:1000px;
+    top: 120px;
+    
+    
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color:  hsl(0, 0%, 95%);
+    padding-left: 50px;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+img{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+p{
+    padding: 50px;
+    padding-top: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.9;
+}
+
+.btn {
+    background: hsl(31, 77%, 52%);
+    
+    -webkit-border-radius: 58;
+    -moz-border-radius: 58;
+    border-radius: 58px;
+    font-family: Arial; 
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding: 12px 25px 12px 25px;
+    border: solid hsla(0, 0%, 100%, 0.75) 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: white;
+    color:hsl(31, 77%, 52%) ;
+    text-decoration: none;
+  }
+
+  a{
+    margin-left: 50px;
+    position: absolute;
+    bottom: 45px;
+  }
+
+  .btn1 {
+    background: hsl(184, 100%, 22%);
+    
+    -webkit-border-radius: 58;
+    -moz-border-radius: 58;
+    border-radius: 58px;
+    font-family: Arial; 
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding: 12px 25px 12px 25px;
+    border: solid hsla(0, 0%, 100%, 0.75) 2px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: white;
+    color:hsl(184, 100%, 22%);
+    text-decoration: none;
+  }
+
+  .btn2 {
+    background: hsl(179, 100%, 13%);
+    
+    -webkit-border-radius: 58;
+    -moz-border-radius: 58;
+    border-radius: 58px;
+    font-family: Arial; 
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding: 12px 25px 12px 25px;
+    border: solid hsla(0, 0%, 100%, 0.75) 2px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: white;
+    color:hsl(179, 100%, 13%);
+    text-decoration: none;
+  }
